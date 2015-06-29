@@ -69,6 +69,6 @@ WORKDIR /home/moses/mosesdecoder
 
 #RUN ./bjam -a --with-irstlm=/home/moses/irstlm --serial --with-xmlrpc-c=/usr/ --with-cmph=/home/moses/cmph-2.0
 
-RUN ./bjam -j8
+#RUN ./bjam -j8
 
 WORKDIR /home/moses/moses-smt
